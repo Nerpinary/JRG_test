@@ -1,21 +1,21 @@
 .content__backgroung_place_top {
     align-self: flex-start;
     position: absolute;
-    animation: 15s infinite linear;
+    animation: 5s infinite ease;
     animation-name: slidein;
-    overflow: hidden;
 }
 
 @keyframes slidein {
     0% {
-        transform: translateY(-100px);
+        transform: translate(0px, -5px)
     }
   
     50% {
-        transform: translateY(-1px);
+        transform: translate(50px, -55px);
     }
 
     100% {
-        transform: translateY(-100px);
+        transform: translate(0px, -5px)
     }
+
 }

@@ -1,21 +1,4 @@
 .content__background_place_bottom {
     justify-self: flex-start;
     z-index: 1;
-    animation: 10s infinite linear;
-    animation-name: slidetop;
-    overflow: hidden;
-}
-
-@keyframes slidetop {
-    0% {
-        transform: translateY(-100px);
-    }
-  
-    50% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-100px);
-    }
 }
