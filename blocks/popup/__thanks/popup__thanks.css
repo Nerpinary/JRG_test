@@ -1,0 +1,6 @@
+.popup__thanks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 159px;
+    margin-bottom: 189px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Конференции, которые нужны">
+  <meta name="author" content="Максим Ситников">
+  <title>Конференции, которые нужны</title>
+</head>
+<body>
+  <div class="page">
+
+    <main class="content">
+      <div class="content__inf-container">
+        <button class="content__about">Подробнее</button>
+        <img class="content__logo" src="./images/jug_logo 2.svg">
+        <h1 class="content__title">Конференции, которые нужны</h1>
+        <p class="content__text">Мы, JUG Ru Group, делаем крупнейшие конференции для программистов и сочувствующих.</p>
+        <p class="content__text">С нас — крутая программа, топовые спикеры, технические доклады без воды.</p>
+        <p class="content__text">С вас — готовность смотреть и общаться.</p>
+        <div class="content__buttons-container">
+          <img class="content__emoji" src="./images/1f64b-200d-2642-fe0f 2.svg" alt="Эмодзи купить">
+          <img class="content__emoji" src="./images/1f926-200d-2642-fe0f 2.svg" alt="Эмодзи послать">
+          <button class="content__button content__button_data_buy">Купить билет</button>
+          <button class="content__button content__button_data_send">Послать в жопу</button>
+        </div>
+      </div>
+      <div class="content__img-container">
+        <img class="content__backgroung_place_top" src="./images/lines 2.png" alt="Линии">
+        <img class="content__background_place_bottom" src="./images/jrg_live_background 2.png" alt="Картинка">
+      </div>
+    </main>
+
+    <div class="popup" id="popupBuy">
+      <div class="popup__container">
+        <form name="dataSubscribe" class="popup__form popup__form_data_subscribe" id="formElementSubscribe" novalidate>
+          <div class="popup__title-container">
+            <img class="popup__emoji" src="./images/1f64b-200d-2642-fe0f 2.png" alt="Эмодзи купить">
+            <h2 class="popup__title">Я хочу знать, когда будет офлайн</h2>
+          </div>
+          <div class="popup__input-container">
+            <input class="popup__input" type="email" placeholder="Укажите email" id="email-input" required>
+            <button class="popup__submit" type="submit">Подписаться</button>
+          </div>
+          <span class="popup__input-error email-input-error"></span>
+          <div class="popup__disclamer">
+            <p class="popup__disclamer">Нажимая на кнопку вы соглашаетесь<br>на обработку персональных данных</p>
+          </div>
+        </form>
+        <button class="popup__close-button"><img class="popup__vector" src="./images/Vector 1.svg">Я кликнул просто посмотреть</button>
+      </div>
+    </div>
+
+    <div class="popup" id="popupSend">
+      <div class="popup__container">
+        <form name="dataFeedback" class="popup__form popup__form_data_feedback" id="formElementSend">
+          <div class="popup__title-container">
+            <img class="popup__emoji" src="./images/1f926-200d-2642-fe0f 2.png" alt="Эмодзи послать">
+            <h2 class="popup__title popup__title_color_white">Идите в жопу!</h2>
+          </div>
+          <div class="popup__buttons-container">
+            <button type="submit" class="popup__button-feedback">Вы свои цены видели?</button>
+            <button type="submit" class="popup__button-feedback">Доклады ни о чем</button>
+            <button type="submit" class="popup__button-feedback">У вас там всё хорошо?</button>
+            <button type="submit" class="popup__button-feedback">Денег нет, но вы держитесь</button>
+          </div>
+        </form>
+        <button class="popup__close-button"><img class="popup__vector" src="./images/Vector 1.svg">Я кликнул просто посмотреть</button>
+      </div>
+    </div>
+
+    <div class="popup" id="popupBuyComplete">
+      <div class="popup__container">
+        <form name="dataSubscribe" class="popup__form popup__form_data_subscribe">
+          <div class="popup__title-container">
+            <img class="popup__emoji" src="./images/1f64b-200d-2642-fe0f 2.png" alt="Эмодзи купить">
+            <h2 class="popup__title">Я хочу знать, когда будет офлайн</h2>
+          </div>
+          <p class="popup__text">Спасибо, что подписались на нашу рассылку!</p>
+        </form>
+      </div>
+    </div>
+
+    <div class="popup" id="popupFeedback">
+      <div class="popup__container">
+        <form name="dataFeedback" class="popup__form popup__form_data_feedback">
+          <div class="popup__thanks">
+            <img class="popup__finger" src="./images/pngegg 1.png" alt="Спасибо!">
+            <h2 class="popup__title popup__title_color_white">Спасибо, что поделились!</h3>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  
+<script type="module" src="./pages/index.js"></script>
+
+</body>
+</html>

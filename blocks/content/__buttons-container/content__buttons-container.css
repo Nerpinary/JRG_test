@@ -1,0 +1,15 @@
+.content__buttons-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 210px);
+    row-gap: 0;
+    column-gap: 21px;
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 80px;
+}
+
+.content__button_data_buy:hover ~ .content__emoji {
+    opacity: 0.5;
+    transition: opacity 1s;
+}

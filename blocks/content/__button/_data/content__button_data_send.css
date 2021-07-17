@@ -1,0 +1,9 @@
+.content__button_data_send {
+    background-color: black;
+    color: white;
+}
+
+.content__button_data_send:hover {
+    transition: opacity 0.1s;
+    opacity: 0.8;
+}

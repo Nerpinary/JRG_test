@@ -1,0 +1,13 @@
+.content__button {
+    width: 210px;
+    height: 65px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 200;
+    z-index: 1;
+}
+
+.content__button:hover {
+    cursor: pointer;
+}
