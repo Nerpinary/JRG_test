@@ -1,4 +1,5 @@
 .content__background_place_bottom {
     justify-self: flex-start;
     z-index: 1;
+    align-self: flex-end;
 }
