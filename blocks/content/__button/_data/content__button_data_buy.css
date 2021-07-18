@@ -6,8 +6,3 @@
     transition: background-color 0.1s;
     background-color: #E6B901;
 }
-
-.content__button_data_buy:hover ~ .content__emoji {
-    opacity: 0.5;
-    transition: opacity 1s;
-}
